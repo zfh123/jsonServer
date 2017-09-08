@@ -8,6 +8,9 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Vuex from 'vuex'
 
+require('./static/js/jquery-2.2.3.min.js')
+require('./static/js/rem.js')
+require('./static/js/swiper-3.3.1.min.js')
 Vue.use(Vuex)
 Vue.use(VueAxios, axios)
 Vue.config.productionTip = false

@@ -25,8 +25,6 @@
 /*webpack可以使用require和export ，
  * 但是不能混合使用import 和module.exports ，
  * 不然会报错Cannot assign to read only property 'exports' of object '#*/
-import '../js/jquery-2.2.3.min.js';
-import '../js/swiper-3.3.1.min.js';
 import axios from 'axios'
 import * as API from '@/constants/api'
 export default {
@@ -101,7 +99,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import '../css/swiper.min.css';
+@import '../static/css/swiper.min.css';
 .tab-top {
 	height: 50px;
 	line-height: 50px;

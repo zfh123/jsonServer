@@ -8,7 +8,6 @@
 
 <script>
 import footer from './common/footer'
-import './js/rem'
 
 export default {
   name: 'app',
